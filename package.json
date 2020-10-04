@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/nshilon/lwc-extract.git"
   },
-  "author": "nir.shilon@gmail.com",
+  "author": "nir.panaya@gmail.com",
   "license": "ISC",
   "bin": "./bin/lwc-extract",
   "scripts": {
