@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+let minimist = require('minimist')
+let path = require('path')
+
+const params = minimist(process.argv.slice(2));
+
+require(path.join(__dirname, '..', 'crawler')).crawl({
+  tsConfigPath: params['p'],
+  out: params['o'],
+})

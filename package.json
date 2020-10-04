@@ -1,0 +1,38 @@
+{
+  "name": "lwc-extract",
+  "version": "1.0.0",
+  "description": "extract the interesting parts out of salesforce lightning project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nshilon/lwc-extract.git"
+  },
+  "author": "nshilon@panaya.com",
+  "license": "ISC",
+  "bin": "./bin/lwc-extract",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "yarn test && tsc",
+    "postbuild": "cp -r bin dist && cp package.json dist && cp README.md dist && cp LICENSE dist",
+    "test": "jest"
+  },
+  "release": {
+    "pkgRoot": "dist"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^10.12.18",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^23.10.5",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-config-standard": "^8.0.1"
+  },
+  "dependencies": {
+    "@phenomnomnominal/tsquery": "^3.0.0",
+    "minimist": "^1.2.0",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  }
+}

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test extract 1`] = `"[{\\"file\\":\\"propFilter.ts\\",\\"imports\\":{\\"'lwc'\\":[\\"LightningElement\\",\\"wire\\",\\"api\\",\\"track\\"],\\"'lightning/messageService'\\":[\\"publish\\",\\"MessageContext\\"],\\"'@salesforce/messageChannel/FiltersChange__c'\\":[\\"FILTERSCHANGEMC\\"]},\\"exportedClass\\":{\\"PropertyFilter\\":{\\"extends\\":[\\"LightningElement\\"],\\"props\\":[\\"@track searchKey\\",\\"@api minBedrooms\\",\\"@api minBathrooms\\",\\"@wire(MessageContext) messageContext\\"]}}},{\\"file\\":\\"propTile.ts\\",\\"imports\\":{\\"'lwc'\\":[\\"LightningElement\\",\\"api\\"]},\\"exportedClass\\":{\\"PropertyTile\\":{\\"extends\\":[\\"LightningElement\\"],\\"props\\":[\\"@api property\\"]}}}]"`;
