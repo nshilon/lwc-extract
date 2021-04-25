@@ -1,4 +1,4 @@
-# lwc-extract (lil' Nitzi Tool)
+# lwc-extract 
 
 Extract the interesting parts of __SalesForce Lightning Web Components__ project files:
 e.g. imports, exports, properties decorated with @track, @api, @wire, CustomEvent-s, etc. 
